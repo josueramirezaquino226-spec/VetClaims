@@ -1,0 +1,31 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Bases de datos
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Secretos y configuraciones locales
+secrets.json
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+.DS_Store
+
+# Copias y registros
+*.backup
+*.log
+
+# Archivos generados
+**/obj/
+**/bin/
